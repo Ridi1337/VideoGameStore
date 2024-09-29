@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | DreamGames</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DreamGames</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог игр</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-info">
+            <h2>Контакты</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h3>Телефон</h3>
+                    <p>+996 555 123 456</p>
+
+                    <h3>Email</h3>
+                    <p>info@gameworld.com</p>
+
+                    <h3>Адрес</h3>
+                    <p>г. Бишкек, ул. Абдрахманова, 123</p>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Связаться с нами</h3>
+                    <form action="mailto:info@gameworld.com" method="post" enctype="text/plain">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 GameWorld. Все права защищены.</p>
+    </footer>
+</body>
+</html>
