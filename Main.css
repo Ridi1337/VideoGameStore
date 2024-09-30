@@ -51,7 +51,7 @@ nav ul li a:hover {
 
 /* Главный раздел (Hero) */
 .hero {
-    background-image: url('/Images/Darksouls.png');
+    background-image: url('./Images/Darksouls.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
